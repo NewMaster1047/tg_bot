@@ -239,7 +239,7 @@ def send_result(chat_id, user_id):
             callback_data=f"show_all_{lang}"
         ))
     
-    bot.send_message(chat_id, "👇", reply_markup=markup)
+    bot.send_message(chat_id, "", reply_markup=markup)
 
     user_state.pop(user_id, None)
 
