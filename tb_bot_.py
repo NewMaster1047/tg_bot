@@ -4,7 +4,7 @@ from collections import defaultdict
 import threading
 import time
 
-bot = telebot.TeleBot('8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts')  # <- Replace with your actual bot token
+bot = telebot.TeleBot('TG_BOT_TOKEN')  # <- Replace with your actual bot token
 
 # Language questions and PDFs
 questions_data = {
