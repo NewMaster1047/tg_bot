@@ -58,14 +58,14 @@ data = {
     },
     'results': {
         'ru': {
-            'A': 'Ваш результат — Тип 1 (Драйвер): \n⚡️ Ивент-агентство \n⚡️ Личный бренд и блоги \n⚡️ Продажа трендовых товаров \n⚡️ Startup в IT или e-commerce',
-            'B': 'Ваш результат — Тип 2 (Сердце): \n💛 Центр детского развития \n💛 Онлайн-курсы по саморазвитию \n💛 Социальное кафе \n💛 Магазин hand-made товаров \n💛 Сервис поддержки мам и детей',
-            'C': 'Ваш результат — Тип 3 (Стратег): \n🧩 Консалтинг или бухгалтерия \n🧩 Онлайн-школа по  маркетингу \n🧩 Центр репетиторства \n🧩 B2B-услуги (HR, финансы) \n🧩 Создание цифровых продуктов (шаблоны, гайды)'
+            'A': 'Ваш результат — Тип 1 (Драйвер): \n⚡️ Ивент-агентство \n⚡️ Продажа трендовых товаров \n⚡️ Startup в IT или e-commerce \n ⚡️ Онлайн школа',
+            'B': 'Ваш результат — Тип 2 (Сердце): \n💛 Центр детского развития \n💛 Онлайн-курсы по саморазвитию \n💛 Социальное кафе \n💛 Магазин hand-made товаровй',
+            'C': 'Ваш результат — Тип 3 (Стратег): \n🧩 Консалтинг \n🧩 Центр репетиторства \n🧩 B2B-услуги (HR, финансы) \n🧩 Создание цифровых продуктов'
         },
         'uz': {
-            'A': 'Sizning natijangiz — 1-tur (Haydovchi): \n⚡️ Tadbirlar agentligi \n⚡️ Shaxsiy brend va bloglar \n⚡️ Zamonaviy mahsulotlar savdosi \n⚡️ IT yoki elektron tijorat sohasidagi startap \n⚡️ Yetkazib berish franshizasi',
-            'B': 'Sizning natijangiz — 2-tur (Yurak): \n💛 Bolalar rivojlanish markazi \n💛 O‘zini rivojlantirish bo‘yicha onlayn kurslar \n💛 Ijtimoiy qahvaxona \n💛 Qo‘lda yasalgan buyumlar do‘koni \n💛 Onalar va bolalarni qo‘llab-quvvatlash xizmati',
-            'C': 'Sizning natijangiz — 3-tur (Strateg): \n🧩 Maslahat yoki buxgalteriya xizmatlari \n🧩 Excel yoki marketing bo‘yicha onlayn maktab \n🧩 Jarayonlarni avtomatlashtirish agentligi \n🧩 B2B xizmatlari (masalan, HR yoki moliya sohasida) \n🧩 Raqamli mahsulotlar yaratish (andozalar, qo‘llanmalar)'
+            'A': 'Sizning natijangiz — 1-tur (Haydovchi): \n⚡️ Tadbirlar agentligi \n⚡️ Zamonaviy mahsulotlar savdosi \n⚡️ IT yoki elektron tijorat sohasidagi startap \n⚡️ Onlayn maktab',
+            'B': 'Sizning natijangiz — 2-tur (Yurak): \n💛 Bolalar rivojlanish markazi \n💛 O‘zini rivojlantirish bo‘yicha onlayn kurslar \n💛 Ijtimoiy qahvaxona \n💛 Qo‘lda yasalgan buyumlar do‘koni',
+            'C': 'Sizning natijangiz — 3-tur (Strateg): \n🧩 Konsalting \n🧩 Repetitorlik markazi \n🧩 B2B xizmatlari (masalan, HR yoki moliya sohasida) \n🧩 Raqamli mahsulotlar yaratish'
         }
     },
     'start_text': {
