@@ -4,7 +4,7 @@ from collections import defaultdict
 import threading
 import time
 
-bot = telebot.TeleBot('TG_BOT_TOKEN')  # <- Replace with your actual bot token
+bot = telebot.TeleBot('8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts')  # <- Replace with your actual bot token
 
 # Language questions and PDFs
 questions_data = {
@@ -225,7 +225,6 @@ def send_result(chat_id, user_id):
     with open(photo_path, 'rb') as photo:
         bot.send_photo(chat_id, photo, caption=result_text)
 
-    bot.send_message(chat_id, f"{dpf_message} \n\n{pdf_link}")
 
     markup = types.InlineKeyboardMarkup()
     if lang == 'ru':
@@ -239,7 +238,7 @@ def send_result(chat_id, user_id):
             callback_data=f"show_all_{lang}"
         ))
     
-    bot.send_message(chat_id, "", reply_markup=markup)
+    bot.send_message(chat_id, f"{dpf_message} \n\n{pdf_link}", reply_markup=markup)
 
     user_state.pop(user_id, None)
 
