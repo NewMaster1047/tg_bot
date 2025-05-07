@@ -3,8 +3,9 @@ from telebot import types
 from collections import defaultdict
 import threading
 import time
+import requests
 
-bot = telebot.TeleBot('8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts')  # <- Replace with your actual bot token
+bot = telebot.TeleBot('7612181109:AAG0BK5_FsJZSaSZiji_Bw6uIMRzfy5tJGo')
 
 # Language questions and PDFs
 questions_data = {
@@ -40,14 +41,14 @@ data = {
     'questions': questions_data,
     'pdf_links': {
         "ru": {
-            'A': 'https://azma.uz/tpost/d5tgd89h51-biznes-plan-po-otkritiyu-ivent-agentstva',
-            'B': 'https://azma.uz/tpost/s1vva54bu1-polnii-biznes-plan-tsentra-detskogo-razv',
-            'C': 'https://azma.uz/tpost/7hvjkjo6e1-biznes-plan-tsentra-repetitorstva-v-uzbe',
+            'A': ['pdfs/Бизнес_план_по_открытию_ивент_агентства_в_Узбекистане.pdf', 'pdfs/продажа_трендовых_товаров.pdf', 'pdfs/Бизнес_план_по_открытию_ивент_агентства_в_Узбекистане.pdf', 'pdfs/Онлайн_школа_бизнес_план.pdf'],
+            'B': ['pdfs/_бизнес_план_центра_детского_развития.pdf', 'pdfs/запуск_курса_по_саморазвитию.pdf', 'pdfs/социальное_кафе.pdf', 'pdfs/hand_made_товары.pdf'],
+            'C': ['pdfs/консталтинговая_компания_бизнес_план_.pdf', 'pdfs/Бизнес_план_центра_репетиторства.pdf', 'pdfs/б2б_услуги_бизнес_план.pdf', 'pdfs/цифравой_продукт_бизнес_план.pdf'],
         },
         "uz": {
-            'A': 'https://azma.uz/tpost/yompspm931-ozbekiston-uchun-iventagentlik-ochish-bo',
-            'B': 'https://azma.uz/tpost/ebisnrnzn1-ozbekistonda-bolalar-rivojlanish-markazi',
-            'C': 'https://azma.uz/tpost/5aibx5dfj1-repetitorlik-markazi-ozbekistonda-2025-i',
+            'A': ['pdfs/event-agentlik_ochish_bo‘yicha_biznes-reja.pdf', 'pdfs/трендли_махсулот_сотиш.pdf', 'pdfs/E-commerce_Startup.pdf', 'pdfs/onlyan_maktab_biznes_rejasi_.pdf'],
+            'B': ['pdfs/bolalar_rivojlanish_markazi_biznes-rejasi.pdf', 'pdfs/узини_ривожлантириш_курс_бизнес_режа.pdf', 'pdfs/ijtimoy_kafe.pdf', 'pdfs/hand_made_mahsulot.pdf'],
+            'C': ['pdfs/консалтинг_компанияси_бизнес_режа.pdf', 'pdfs/_repetitorlik_markazi_biznes-rejasi.pdf', 'pdfs/б2б_хизматлра.pdf', 'pdfs/raqamli_mahsulot_biznes_reja.pdf'],
         }
     },
     "type_img": {
@@ -132,25 +133,18 @@ user_state = defaultdict(lambda: {
 user_languages = {}
 
 def schedule_offer_message(chat_id, lang, delay=10):  # 3600 seconds = 1 hour
-    def send_offer():
-        time.sleep(delay)
-        try:
-            # Проверяем, что язык сохранен
-            if lang is None:
-                print(f"Language is None for chat_id: {chat_id}")
-                return
-                
-            markup = types.InlineKeyboardMarkup()
-            markup.add(types.InlineKeyboardButton(
-                text=data['offer_button'][lang],
-                url=data['offer_url']
-            ))
-            bot.send_message(chat_id, data['offer_message'][lang], reply_markup=markup)
-        except Exception as e:
-            print(f"Failed to send offer message to {chat_id}: {e}")
+    def send_offer(lang=lang):
+        time.sleep(delay)            
+        markup = types.InlineKeyboardMarkup()
+        markup.add(types.InlineKeyboardButton(
+            text=data['offer_button'][lang],
+            callback_data="submit_contact"
+        ))
+        bot.send_message(chat_id, data['offer_message'][lang], reply_markup=markup)
     
     thread = threading.Thread(target=send_offer)
     thread.start()
+
 
 @bot.message_handler(commands=['start'])
 def start(message):
@@ -194,6 +188,7 @@ def request_contact_info(chat_id, user_id):
     user_state[user_id]['waiting_for_contact'] = True
     bot.send_message(chat_id, data['request_contact'][lang])
 
+
 @bot.message_handler(func=lambda message: user_state.get(message.from_user.id, {}).get('waiting_for_contact', False))
 def handle_contact_info(message):
     user_id = message.from_user.id
@@ -202,16 +197,9 @@ def handle_contact_info(message):
     user_state[user_id]['contact_info'] = contact_info
     user_state[user_id]['waiting_for_contact'] = False
     
-    # Here you can save the contact info to database or file
-    # For example:
-    with open('contacts.txt', 'a', encoding='utf-8') as f:
-        f.write(f"User ID: {user_id}, Contact: {contact_info}\n")
-    
     send_result(message.chat.id, user_id)
-    
-    # Schedule offer message after 1 hour
+
     lang = user_state[user_id]['lang']
-    schedule_offer_message(message.chat.id, lang)
 
 def send_result(chat_id, user_id):
     scores = user_state[user_id]['scores']
@@ -221,62 +209,75 @@ def send_result(chat_id, user_id):
     pdf_link = data['pdf_links'][lang][result_type]
     dpf_message = data['dpf_message'][lang]
     photo_path = data["type_img"][result_type]
-
+    
     with open(photo_path, 'rb') as photo:
         bot.send_photo(chat_id, photo, caption=result_text)
-
-
-    markup = types.InlineKeyboardMarkup()
-    if lang == 'ru':
-        markup.add(types.InlineKeyboardButton(
-            "Посмотреть все варианты", 
-            callback_data=f"show_all_{lang}"
-        ))
-    else:
-        markup.add(types.InlineKeyboardButton(
-            "Barcha variantlarni ko'rish", 
-            callback_data=f"show_all_{lang}"
-        ))
     
-    bot.send_message(chat_id, f"{dpf_message} \n\n{pdf_link}", reply_markup=markup)
+    markup = types.InlineKeyboardMarkup()
+    button_text = "Хотите посмотреть все варианты?" if lang == 'ru' else "Barcha variantlarni ko'rishni hohlaysizmi?"
+    markup.add(types.InlineKeyboardButton(
+        button_text,
+        callback_data=f"show_all_{lang}"
+    ))
 
-    user_state.pop(user_id, None)
+    bot.send_message(chat_id, dpf_message)
 
-    # Schedule offer message after 1 hour
-    if user_id in user_languages:
-        schedule_offer_message(chat_id, user_languages[user_id])
-    else:
-        print(f"Language not found for user {user_id}")
+    for i in pdf_link:
+        with open(i, "rb") as file:
+            bot.send_document(chat_id, file)
+
+    bot.send_message(chat_id, button_text, reply_markup=markup)
+
+    schedule_offer_message(chat_id, lang)
 
 
 @bot.callback_query_handler(func=lambda call: call.data.startswith("show_all_"))
 def show_all_options(call):
     lang = call.data.split("_")[2]
-    user_id = call.from_user.id
     
-    # Получаем все варианты результатов
     all_results = data['results'][lang]
-    all_links = data['pdf_links']
     
-    # Определяем основной тип результата пользователя
-    if user_id in user_state:
-        main_result = max(user_state[user_id]['scores'], key=user_state[user_id]['scores'].get)
-    else:
-        main_result = None
-    
-    # Отправляем все варианты кроме основного
     for result_type, result_text in all_results.items():
-        print(result_type)
-        print(data["type_img"][result_type])
-        if result_type != main_result:
-            photo_path = data["type_img"][result_type]
-            with open(photo_path, 'rb') as photo:
-                bot.send_photo(call.message.chat.id, photo, caption=result_text)
-            bot.send_message(call.message.chat.id, 
-                           f"{data['dpf_message'][lang]} \n\n{data['pdf_links'][lang][result_type]}")
+        pdf_link = data["pdf_links"][lang][result_type]
+        bot.send_message(call.message.chat.id, f"{result_text}")
     
+        bot.send_message(call.message.chat.id, f"{data['dpf_message'][lang]}")
+        for i in pdf_link:
+            with open(i, "rb") as file:
+                bot.send_document(call.message.chat.id, file)
+
     bot.answer_callback_query(call.id)
 
+
+@bot.callback_query_handler(func=lambda call: call.data == "submit_contact")
+def handle_submit_contact(call):
+    user_name = call.from_user.username
+    user_id = call.from_user.id
+    chat_id = call.message.chat.id
+    
+    contact_info = user_state[user_id]['contact_info']
+
+    url = f"https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage"
+    params = {
+        "chat_id": -1002578623157,
+        "text": f"✅ Новая заявка!\n"
+                f"👤 Пользователь: @{user_name}\n"
+                f"📞 Контакт: {contact_info}"
+    }
+    requests.post(url, params=params)
+    
+    # Уведомляем пользователя
+    bot.answer_callback_query(call.id, "✅ Ваша заявка отправлена!")
+    
+    # Можно отправить подтверждение в личку
+    lang = user_state[user_id]['lang']
+    bot.send_message(
+        chat_id,
+        "Спасибо! Мы свяжемся с вами в ближайшее время." if lang == 'ru' 
+        else "Rahmat! Tez orada siz bilan bog'lanamiz."
+    )
+
+    user_state.pop(user_id, None)
 
 
 @bot.callback_query_handler(func=lambda call: call.data.startswith("ans_"))
