@@ -41,14 +41,14 @@ data = {
     'questions': questions_data,
     'pdf_links': {
         "ru": {
-            'A': ['pdfs/Бизнес_план_по_открытию_ивент_агентства_в_Узбекистане.pdf', 'pdfs/продажа_трендовых_товаров.pdf', 'pdfs/Бизнес_план_по_открытию_ивент_агентства_в_Узбекистане.pdf', 'pdfs/Онлайн_школа_бизнес_план.pdf'],
-            'B': ['pdfs/_бизнес_план_центра_детского_развития.pdf', 'pdfs/запуск_курса_по_саморазвитию.pdf', 'pdfs/социальное_кафе.pdf', 'pdfs/hand_made_товары.pdf'],
-            'C': ['pdfs/консталтинговая_компания_бизнес_план_.pdf', 'pdfs/Бизнес_план_центра_репетиторства.pdf', 'pdfs/б2б_услуги_бизнес_план.pdf', 'pdfs/цифравой_продукт_бизнес_план.pdf'],
+            'A': ['pdfs/Бизнес-план Ивент агентства от Azma Finance.pdf', 'pdfs/Бизнес-план по продаже трендовых товаров  от Azma Finance.pdf', 'pdfs/Бизнес-план IT Стартапа от Azma Finance.pdf', 'pdfs/Бизнес-план онлайн школы  от Azma Finance .pdf'],
+            'B': ['pdfs/Бизнес-план центра детского развития  от Azma Finance.pdf', 'pdfs/Бизнес-план  онлайн школы по саморазвитию  от Azma Finance.pdf', 'pdfs/Бизнес-план салона красоты от Azma Finance.pdf', 'pdfs/Бизнес-план свадебного агентства от Azma Finance.pdf'],
+            'C': ['pdfs/Бизнес-план Консалтинговой компании  от Azma Finance .pdf', 'pdfs/Бизнес-план центра репетиторства  от Azma Finance.pdf', 'pdfs/Бизнес-план  B2B услуг в сфере HR и финансов от Azma Finance.pdf', 'pdfs/Бизнес-план Рекламного агентства от Azma Finance .pdf'],
         },
         "uz": {
-            'A': ['pdfs/event-agentlik_ochish_bo‘yicha_biznes-reja.pdf', 'pdfs/трендли_махсулот_сотиш.pdf', 'pdfs/E-commerce_Startup.pdf', 'pdfs/onlyan_maktab_biznes_rejasi_.pdf'],
-            'B': ['pdfs/bolalar_rivojlanish_markazi_biznes-rejasi.pdf', 'pdfs/узини_ривожлантириш_курс_бизнес_режа.pdf', 'pdfs/ijtimoy_kafe.pdf', 'pdfs/hand_made_mahsulot.pdf'],
-            'C': ['pdfs/консалтинг_компанияси_бизнес_режа.pdf', 'pdfs/_repetitorlik_markazi_biznes-rejasi.pdf', 'pdfs/б2б_хизматлра.pdf', 'pdfs/raqamli_mahsulot_biznes_reja.pdf'],
+            'A': ['pdfs/Azma Finance’dan  event agentlik    biznes-rejasi  .pdf', 'pdfs/Azma Finance’dan  trenddagi tovarlarni sotish bo‘yicha biznes-reja  .pdf', 'pdfs/Azma Finance’dan  IT startapining biznes-rejasi.pdf', 'pdfs/Azma Finance’dan onlayn maktab biznes rejasi .pdf'],
+            'B': ['pdfs/Azma Finance’dan  bolalar rivojlanish markazi   biznes-rejasi  .pdf', 'pdfs/Azma Finance’dan  onlayn maktabning biznes-rejasi  .pdf', "pdfs/Azma Finance’dan g'ozallik salonining biznes-rejasi  .pdf", "pdfs/Azma Finance’dan t'oy agentligining   biznes-rejasi  .pdf"],
+            'C': ["pdfs/Azma Finance'dan Konsalting kompaniyasining biznes rejasi.pdf", "pdfs/Azma Finance’dan repetitorlik markazining biznes rejasi.pdf", 'pdfs/Azma Finance’dan HR va moliya sohasidagi B2B xizmatlarining biznes-rejasi.pdf', 'pdfs/Azma Finance’dan reklama agentligini biznes rejasi.pdf'],
         }
     },
     "type_img": {
@@ -60,18 +60,18 @@ data = {
     'results': {
         'ru': {
             'A': 'Ваш результат — Тип 1 (Драйвер): \n⚡️ Ивент-агентство \n⚡️ Продажа трендовых товаров \n⚡️ Startup в IT или e-commerce \n ⚡️ Онлайн школа',
-            'B': 'Ваш результат — Тип 2 (Сердце): \n💛 Центр детского развития \n💛 Онлайн-курсы по саморазвитию \n💛 Социальное кафе \n💛 Магазин hand-made товаровй',
-            'C': 'Ваш результат — Тип 3 (Стратег): \n🧩 Консалтинг \n🧩 Центр репетиторства \n🧩 B2B-услуги (HR, финансы) \n🧩 Создание цифровых продуктов'
+            'B': 'Ваш результат — Тип 2 (Сердце): \n💛 Центр детского развития \n💛 Онлайн-курсы по саморазвитию \n💛 Салон красоты \n💛 Свадебный салон',
+            'C': 'Ваш результат — Тип 3 (Стратег): \n🧩 Консалтинг \n🧩 Центр репетиторства \n🧩 B2B-услуги (HR, финансы) \n🧩 Рекламное Агентство'
         },
         'uz': {
             'A': 'Sizning natijangiz — 1-tur (Haydovchi): \n⚡️ Tadbirlar agentligi \n⚡️ Zamonaviy mahsulotlar savdosi \n⚡️ IT yoki elektron tijorat sohasidagi startap \n⚡️ Onlayn maktab',
-            'B': 'Sizning natijangiz — 2-tur (Yurak): \n💛 Bolalar rivojlanish markazi \n💛 O‘zini rivojlantirish bo‘yicha onlayn kurslar \n💛 Ijtimoiy qahvaxona \n💛 Qo‘lda yasalgan buyumlar do‘koni',
-            'C': 'Sizning natijangiz — 3-tur (Strateg): \n🧩 Konsalting \n🧩 Repetitorlik markazi \n🧩 B2B xizmatlari (masalan, HR yoki moliya sohasida) \n🧩 Raqamli mahsulotlar yaratish'
+            'B': 'Sizning natijangiz — 2-tur (Yurak): \n💛 Bolalar rivojlanish markazi \n💛 O‘zini rivojlantirish bo‘yicha onlayn kurslar \n💛 Go‘zallik saloni \n💛 To‘y agentligi',
+            'C': 'Sizning natijangiz — 3-tur (Strateg): \n🧩 Konsalting \n🧩 Repetitorlik markazi \n🧩 B2B xizmatlari (masalan, HR yoki moliya sohasida) \n🧩 Reklama agentligi'
         }
     },
     'start_text': {
-        'ru': "Сейчас я задам вам несколько вопросов — отвечайте честно, и в конце вы получите советы, какой бизнес лучше всего вам подойдёт!",
-        'uz': "Hozir sizga bir nechta savol beraman — to‘g‘ri javob bering va oxirida o‘zingizga eng mos keladigan biznes haqida maslahatlar olasiz!"
+        'ru': "✨Сейчас я задам вам несколько вопросов — отвечайте честно, и в конце вы получите советы, какой бизнес лучше всего вам подойдёт!✨",
+        'uz': "✨Hozir sizga bir nechta savol beraman — to‘g‘ri javob bering va oxirida o‘zingizga eng mos keladigan biznes haqida maslahatlar olasiz!✨"
     },
     'request_contact': {
         'ru': "Пожалуйста, введите ваше ФИО и номер телефона в формате:\n\nИванов Иван Иванович +998901234567",
