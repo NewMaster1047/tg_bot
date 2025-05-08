@@ -74,18 +74,8 @@ data = {
         'uz': "✨Hozir sizga bir nechta savol beraman — to‘g‘ri javob bering va oxirida o‘zingizga eng mos keladigan biznes haqida maslahatlar olasiz!✨"
     },
     'request_contact': {
-        'ru': (
-            "Пожалуйста, отправьте ваши ФИО и номер телефона одним из способов:\n\n"
-            "• Напишите их в таком формате:\n"
-            "  Иванов Иван Иванович +998901234567\n\n"
-            "• Или нажмите кнопку ниже, чтобы отправить контакт автоматически"
-        ),
-        'uz': (
-            "Iltimos, ism-familiyangiz va telefon raqamingizni quyidagilardan biri orqali yuboring:\n\n"
-            "• Quyidagi formatda yozing:\n"
-            "  Ivanov Ivan Ivanovich +998901234567\n\n"
-            "• Yoki avtomatik yuborish uchun quyidagi tugmani bosing"
-        )
+        'ru': "Пожалуйста, нажмите кнопку ниже, чтобы отправить ваш номер телефона 📞",
+        'uz': "Iltimos, telefon raqamingizni yuborish uchun quyidagi tugmani bosing 📞"
     },
     'offer_message': {
         'ru': """Хотите запустить свой бизнес с нуля — быстро, легально и без лишних хлопот?
