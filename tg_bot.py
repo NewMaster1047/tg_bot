@@ -56,7 +56,7 @@ data = {
         "B": "img/2.jpg",
         "C": "img/3.jpg"
     },
-    
+
     'results': {
         'ru': {
             'A': 'Тип 1 (Инноватор): \n⚡️ Ивент-агентство \n⚡️ Продажа трендовых товаров \n⚡️ Startup в IT или e-commerce \n⚡️ Онлайн школа',
@@ -187,20 +187,48 @@ def send_question(chat_id, user_id):
 def request_contact_info(chat_id, user_id):
     lang = user_state[user_id]['lang']
     user_state[user_id]['waiting_for_contact'] = True
-    bot.send_message(chat_id, data['request_contact'][lang])
+
+    # bot.send_message(chat_id, data['request_contact'][lang])
+
+    markup = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True)
+    button = types.KeyboardButton(text="📞 Отправить контакт" if lang == 'ru' else "📞 Kontaktni yuborish", request_contact=True)
+    markup.add(button)
+    bot.send_message(chat_id, data['request_contact'][lang], reply_markup=markup)
 
 
-@bot.message_handler(func=lambda message: user_state.get(message.from_user.id, {}).get('waiting_for_contact', False))
+# Old
+# @bot.message_handler(func=lambda message: user_state.get(message.from_user.id, {}).get('waiting_for_contact', False))
+# def handle_contact_info(message):
+#     user_id = message.from_user.id
+#     contact_info = message.text
+    
+#     user_state[user_id]['contact_info'] = contact_info
+#     user_state[user_id]['waiting_for_contact'] = False
+    
+#     send_result(message.chat.id, user_id)
+
+#     lang = user_state[user_id]['lang']
+
+
+# New
+@bot.message_handler(content_types=['contact'])
 def handle_contact_info(message):
     user_id = message.from_user.id
-    contact_info = message.text
-    
-    user_state[user_id]['contact_info'] = contact_info
+    if not user_state[user_id]['waiting_for_contact']:
+        return
+
+    contact = message.contact
+    lang = user_state[user_id]['lang']
+
+    # Сохраняем номер и имя
+    user_state[user_id]['contact_info'] = f"{contact.first_name} {contact.last_name or ''} {contact.phone_number}"
     user_state[user_id]['waiting_for_contact'] = False
-    
+
+    # Убираем клавиатуру
+    bot.send_message(message.chat.id, "✅ Контакт получен!", reply_markup=types.ReplyKeyboardRemove())
+
     send_result(message.chat.id, user_id)
 
-    lang = user_state[user_id]['lang']
 
 def send_result(chat_id, user_id):
     scores = user_state[user_id]['scores']
