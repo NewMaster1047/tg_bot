@@ -10,30 +10,30 @@ bot = telebot.TeleBot('7612181109:AAG0BK5_FsJZSaSZiji_Bw6uIMRzfy5tJGo')
 # Language questions and PDFs
 questions_data = {
     'ru': [
-        {"q": "Как вы обычно решаете рабочие задачи?", "options": [("Действую сразу, разбираясь по ходу.", "A"), ("Сначала собираю информацию.", "B"), ("Передаю задачу другому.", "C")]},
-        {"q": "Что вам больше нравится?", "options": [("Общение", "A"), ("Онлайн и цифры", "B"), ("Красота и новое", "C")]},
-        {"q": "Какая ваша главная сильная сторона?", "options": [("Энергия", "A"), ("Внимание к деталям", "B"), ("Вкус и стиль", "C")]},
-        {"q": "Что сильнее мотивирует вас на работе?", "options": [("Победа и признание", "A"), ("Ощущение пользы и смысла", "B"), ("Эффективность и порядок", "C")]},
-        {"q": "Какой стиль жизни вам ближе?", "options": [("Активный", "A"), ("Спокойный", "B"), ("Разнообразный", "C")]},
-        {"q": "Что вас больше всего вдохновляет?", "options": [("Рост и успех", "A"), ("Помощь людям", "B"), ("Красота", "C")]},
-        {"q": "Если бы вы создали свой бренд, что было бы на первом плане?", "options": [("Яркий стиль", "A"), ("Высокое качество продукта", "B"), ("Польза для людей и общества", "C")]},
-        {"q": "Что для вас важнее в работе?", "options": [("Свобода", "A"), ("Доход", "B"), ("Любовь к делу", "C")]},
-        {"q": "Какой формат бизнеса вам интересен?", "options": [("Онлайн", "A"), ("Офлайн", "B"), ("Смешанный", "C")]},
-        {"q": "Чем бы вы занимались даже бесплатно?", "options": [("Обучением или помощью", "A"), ("Красотой или творчеством", "B"), ("Онлайн-проектами или соцсетями", "C")]},
-        {"q": "Представьте: вы на старте бизнеса. Какой ваш первый шаг?", "options": [("Заявлю о себе в соцсетях", "A"), ("Сделаю бизнес-план и просчитаю цифры", "B"), ("Соберу единомышленников и команду", "C")]},
+        {"q": "Как вы обычно решаете рабочие задачи?", "options": [("⚡️Действую сразу, разбираясь по ходу.", "A"), ("🔍Сначала собираю информацию.", "B"), ("🤝Передаю задачу другому.", "C")]},
+        {"q": "Что вам больше нравится?", "options": [("🗣️ Общение", "A"), ("💻 Онлайн и цифры", "B"), ("✨ Красота и новое", "C")]},
+        {"q": "Какая ваша главная сильная сторона?", "options": [("⚡️ Энергия", "A"), ("🔍 Внимание к деталям", "B"), ("🎨 Вкус и стиль", "C")]},
+        {"q": "Что сильнее мотивирует вас на работе?", "options": [("🏆 Победа и признание", "A"), ("💛 Ощущение пользы и смысла", "B"), ("📋 Эффективность и порядок", "C")]},
+        {"q": "Какой стиль жизни вам ближе?", "options": [("🏃 Активный", "A"), ("🧘 Спокойный", "B"), ("🌈 Разнообразный", "C")]},
+        {"q": "Что вас больше всего вдохновляет?", "options": [("📈 Рост и успех", "A"), ("🤝 Помощь людям", "B"), ("🎨 Красота", "C")]},
+        {"q": "Если бы вы создали свой бренд, что было бы на первом плане?", "options": [("✨ Яркий стиль", "A"), ("🛠️ Высокое качество продукта", "B"), ("🤝 Польза для людей и общества", "C")]},
+        {"q": "Что для вас важнее в работе?", "options": [("❤️Любовь к делу", "A"), ("💰 Доход", "B"), ("🕊️ Свобода", "C")]},
+        {"q": "Какой формат бизнеса вам интересен?", "options": [("🌐 Онлайн", "A"), ("🏬 Офлайн", "B"), ("🔀 Смешанный", "C")]},
+        {"q": "Чем бы вы занимались даже бесплатно?", "options": [("📚 Обучением или помощью", "A"), ("🎨 Красотой или творчеством", "B"), ("💻 Онлайн-проектами или соцсетями", "C")]},
+        {"q": "Представьте: вы на старте бизнеса. Какой ваш первый шаг?", "options": [("📣 Заявлю о себе в соцсетях", "A"), ("📊  Сделаю бизнес-план и просчитаю все", "B"), ("🤝 Соберу единомышленников и команду", "C")]},
     ],
     'uz': [
-        {"q": "Ish vazifalarini qanday hal etasiz?", "options": [("Darhol boshlayman", "A"), ("Ma’lumot yig‘amanм", "B"), ("Boshqalarga topshiraman.", "C")]},
-        {"q": "Qaysi vazifa sizga ko‘proq yoqadi?", "options": [("Muammolarni hal qilish", "A"), ("Jarayonlarni yaxshilash", "B"), ("Yangi loyihalarni boshlash", "C")]},
-        {"q": "Sizga nima ko‘proq yoqadi?", "options": [("Muloqot", "A"), ("Internet va raqamlar", "B"), ("Go‘zallik va yangiliklarmi", "C")]},
-        {"q": "Sizning eng asosiy kuchli tomoningiz qaysi?", "options": [("G'ayrat", "A"), ("Tafsilotlarga e’tibor", "B"), ("Did va uslub", "C")]},
-        {"q": "Ishda sizni nima rag‘batlantiradi?", "options": [("G‘alaba va e’tirof", "A"), ("Foydali ish", "B"), ("Samaradorlik va tartib", "C")]},
-        {"q": "Qanday hayot tarzi yoqadi?", "options": [("Faol", "A"), ("Tinch", "B"), ("Rang-barang", "C")]},
-        {"q": "Stressni qanday yengasiz?", "options": [("Sport yoki yurish", "A"), ("Do‘stlar bilan gaplashib", "B"), ("Yolg‘izlikda dam olib", "C")]},
-        {"q": "Sizni eng ko‘p nima ruhlantiradi?", "options": [("O‘sish va muvaffaqiyat", "A"), ("Insonlarga yordam ko‘rsatish", "B"), ("Go‘zallik", "C")]},
-        {"q": "Muvaffaqiyat siz uchun nima?", "options": [("Pul va obro‘", "A"), ("Ma’no va qadriyat", "B"), ("Erkinlik va vaqt", "C")]},
-        {"q": "Yangi narsalarni qanday o‘rganasiz?", "options": [("Amalda sinab ko‘rib", "A"), ("Kitob yoki kurslardan", "B"), ("Boshqalardan o‘rganib", "C")]},
-        {"q": "Sizni orzuyingizdagi natijaga eng tez yetkazadigan narsa nima, deb o‘ylaysiz?", "options": [("Yaxshi jamoa", "A"), ("To‘g‘ri strategiya", "B"), ("Moliyaviy resurslar", "C")]},
+        {"q": "Ish vazifalarini qanday hal etasiz?", "options": [("Darhol boshlayman ⚡️", "A"), ("Ma’lumot yig‘aman 📚", "B"), ("Boshqalarga topshiraman 🤝", "C")]},
+        {"q": "Qaysi vazifa sizga ko‘proq yoqadi?", "options": [("Muammolarni hal qilish 🛠️", "A"), ("Jarayonlarni yaxshilash 🔧", "B"), ("Yangi loyihalarni boshlash 🚀", "C")]},
+        {"q": "Sizga nima ko‘proq yoqadi?", "options": [("Muloqot 🗣️", "A"), ("Internet va raqamlar 💻", "B"), ("Go‘zallik va yangiliklarmi ✨", "C")]},
+        {"q": "Sizning eng asosiy kuchli tomoningiz qaysi?", "options": [("G'ayrat 💪", "A"), ("Tafsilotlarga e’tibor 🔍", "B"), ("Did va uslub 🎨", "C")]},
+        {"q": "Ishda sizni nima rag‘batlantiradi?", "options": [("G‘alaba va e’tirof 🏆", "A"), ("Foydali ish ❤️", "B"), ("Samaradorlik va tartib 📊", "C")]},
+        {"q": "Qanday hayot tarzi yoqadi?", "options": [("Faol 💥", "A"), ("Tinch 🌿", "B"), ("Rang-barang 🌈", "C")]},
+        {"q": "Stressni qanday yengasiz?", "options": [("Sport yoki yurish 🏃‍♂️", "A"), ("Do‘stlar bilan gaplashib 🗣️", "B"), ("Yolg‘izlikda dam olib 🌙", "C")]},
+        {"q": "Sizni eng ko‘p nima ruhlantiradi?", "options": [("O‘sish va muvaffaqiyat 🚀", "A"), ("Insonlarga yordam ko‘rsatish 🤝", "B"), ("Go‘zallik 🎨", "C")]},
+        {"q": "Muvaffaqiyat siz uchun nima?", "options": [("Pul va obro‘ 💰✨", "A"), ("Ma’no va qadriyat 💡❤️", "B"), ("Erkinlik va vaqt 🕊️⏰", "C")]},
+        {"q": "Yangi narsalarni qanday o‘rganasiz?", "options": [("Amalda sinab ko‘rib 🔧💥", "A"), ("Kitob yoki kurslardan 📚🎓", "B"), ("Boshqalardan o‘rganib 👥💬", "C")]},
+        {"q": "Sizni orzuyingizdagi natijaga eng tez yetkazadigan narsa nima, deb o‘ylaysiz?", "options": [("Yaxshi jamoa 👥", "A"), ("To‘g‘ri strategiya 📊", "B"), ("Moliyaviy resurslar 💰", "C")]},
     ]
 }
 
@@ -41,14 +41,14 @@ data = {
     'questions': questions_data,
     'pdf_links': {
         "ru": {
-            'A': ['pdfs/Бизнес_план_по_открытию_ивент_агентства_в_Узбекистане.pdf', 'pdfs/продажа_трендовых_товаров.pdf', 'pdfs/Бизнес_план_по_открытию_ивент_агентства_в_Узбекистане.pdf', 'pdfs/Онлайн_школа_бизнес_план.pdf'],
-            'B': ['pdfs/_бизнес_план_центра_детского_развития.pdf', 'pdfs/запуск_курса_по_саморазвитию.pdf', 'pdfs/социальное_кафе.pdf', 'pdfs/hand_made_товары.pdf'],
-            'C': ['pdfs/консталтинговая_компания_бизнес_план_.pdf', 'pdfs/Бизнес_план_центра_репетиторства.pdf', 'pdfs/б2б_услуги_бизнес_план.pdf', 'pdfs/цифравой_продукт_бизнес_план.pdf'],
+            'A': ['pdfs/Бизнес-план Ивент агентства от Azma Finance.pdf', 'pdfs/Бизнес-план по продаже трендовых товаров  от Azma Finance.pdf', 'pdfs/Бизнес-план IT Стартапа от Azma Finance.pdf', 'pdfs/Бизнес-план онлайн школы  от Azma Finance .pdf'],
+            'B': ['pdfs/Бизнес-план центра детского развития  от Azma Finance.pdf', 'pdfs/Бизнес-план  онлайн школы по саморазвитию  от Azma Finance.pdf', 'pdfs/Бизнес-план салона красоты от Azma Finance.pdf', 'pdfs/Бизнес-план свадебного агентства от Azma Finance.pdf'],
+            'C': ['pdfs/Бизнес-план Консалтинговой компании  от Azma Finance .pdf', 'pdfs/Бизнес-план центра репетиторства  от Azma Finance.pdf', 'pdfs/Бизнес-план  B2B услуг в сфере HR и финансов от Azma Finance.pdf', 'pdfs/Бизнес-план Рекламного агентства от Azma Finance .pdf'],
         },
         "uz": {
-            'A': ['pdfs/event-agentlik_ochish_bo‘yicha_biznes-reja.pdf', 'pdfs/трендли_махсулот_сотиш.pdf', 'pdfs/E-commerce_Startup.pdf', 'pdfs/onlyan_maktab_biznes_rejasi_.pdf'],
-            'B': ['pdfs/bolalar_rivojlanish_markazi_biznes-rejasi.pdf', 'pdfs/узини_ривожлантириш_курс_бизнес_режа.pdf', 'pdfs/ijtimoy_kafe.pdf', 'pdfs/hand_made_mahsulot.pdf'],
-            'C': ['pdfs/консалтинг_компанияси_бизнес_режа.pdf', 'pdfs/_repetitorlik_markazi_biznes-rejasi.pdf', 'pdfs/б2б_хизматлра.pdf', 'pdfs/raqamli_mahsulot_biznes_reja.pdf'],
+            'A': ['pdfs/Azma Finance’dan  event agentlik    biznes-rejasi  .pdf', 'pdfs/Azma Finance’dan  trenddagi tovarlarni sotish bo‘yicha biznes-reja  .pdf', 'pdfs/Azma Finance’dan  IT startapining biznes-rejasi.pdf', 'pdfs/Azma Finance’dan onlayn maktab biznes rejasi .pdf'],
+            'B': ['pdfs/Azma Finance’dan  bolalar rivojlanish markazi   biznes-rejasi  .pdf', 'pdfs/Azma Finance’dan  onlayn maktabning biznes-rejasi  .pdf', "pdfs/Azma Finance’dan g'ozallik salonining biznes-rejasi  .pdf", "pdfs/Azma Finance’dan t'oy agentligining   biznes-rejasi  .pdf"],
+            'C': ["pdfs/Azma Finance'dan Konsalting kompaniyasining biznes rejasi.pdf", "pdfs/Azma Finance’dan repetitorlik markazining biznes rejasi.pdf", 'pdfs/Azma Finance’dan HR va moliya sohasidagi B2B xizmatlarining biznes-rejasi.pdf', 'pdfs/Azma Finance’dan reklama agentligini biznes rejasi.pdf'],
         }
     },
     "type_img": {
@@ -58,19 +58,19 @@ data = {
     },
     'results': {
         'ru': {
-            'A': 'Ваш результат — Тип 1 (Драйвер): \n⚡️ Ивент-агентство \n⚡️ Личный бренд и блоги \n⚡️ Продажа трендовых товаров \n⚡️ Startup в IT или e-commerce',
-            'B': 'Ваш результат — Тип 2 (Сердце): \n💛 Центр детского развития \n💛 Онлайн-курсы по саморазвитию \n💛 Социальное кафе \n💛 Магазин hand-made товаров \n💛 Сервис поддержки мам и детей',
-            'C': 'Ваш результат — Тип 3 (Стратег): \n🧩 Консалтинг или бухгалтерия \n🧩 Онлайн-школа по  маркетингу \n🧩 Центр репетиторства \n🧩 B2B-услуги (HR, финансы) \n🧩 Создание цифровых продуктов (шаблоны, гайды)'
+            'A': 'Тип 1 (Инноватор): \n⚡️ Ивент-агентство \n⚡️ Продажа трендовых товаров \n⚡️ Startup в IT или e-commerce \n⚡️ Онлайн школа',
+            'B': 'Тип 2 (Сердце): \n💛 Центр детского развития \n💛 Онлайн-курсы по саморазвитию \n💛 Салон красоты \n💛 Свадебное агентство',
+            'C': 'Тип 3 (Стратег): \n🧩 Консалтинг \n🧩 Центр репетиторства \n🧩 B2B-услуги (HR, финансы) \n🧩 Рекламное Агентство'
         },
         'uz': {
-            'A': 'Sizning natijangiz — 1-tur (Haydovchi): \n⚡️ Tadbirlar agentligi \n⚡️ Shaxsiy brend va bloglar \n⚡️ Zamonaviy mahsulotlar savdosi \n⚡️ IT yoki elektron tijorat sohasidagi startap \n⚡️ Yetkazib berish franshizasi',
-            'B': 'Sizning natijangiz — 2-tur (Yurak): \n💛 Bolalar rivojlanish markazi \n💛 O‘zini rivojlantirish bo‘yicha onlayn kurslar \n💛 Ijtimoiy qahvaxona \n💛 Qo‘lda yasalgan buyumlar do‘koni \n💛 Onalar va bolalarni qo‘llab-quvvatlash xizmati',
-            'C': 'Sizning natijangiz — 3-tur (Strateg): \n🧩 Maslahat yoki buxgalteriya xizmatlari \n🧩 Excel yoki marketing bo‘yicha onlayn maktab \n🧩 Jarayonlarni avtomatlashtirish agentligi \n🧩 B2B xizmatlari (masalan, HR yoki moliya sohasida) \n🧩 Raqamli mahsulotlar yaratish (andozalar, qo‘llanmalar)'
+            'A': '1-tur (Innovator): \n⚡️ Tadbirlar agentligi \n⚡️ Zamonaviy mahsulotlar savdosi \n⚡️ IT yoki elektron tijorat sohasidagi startap \n⚡️ Onlayn maktab',
+            'B': '2-tur (Yurak): \n💛 Bolalar rivojlanish markazi \n💛 O‘zini rivojlantirish bo‘yicha onlayn kurslar \n💛 Go‘zallik saloni \n💛 To‘y agentligi',
+            'C': '3-tur (Strateg): \n🧩 Konsalting \n🧩 Repetitorlik markazi \n🧩 B2B xizmatlari (masalan, HR yoki moliya sohasida) \n🧩 Reklama agentligi'
         }
     },
     'start_text': {
-        'ru': "Сейчас я задам вам несколько вопросов — отвечайте честно, и в конце вы получите советы, какой бизнес лучше всего вам подойдёт!",
-        'uz': "Hozir sizga bir nechta savol beraman — to‘g‘ri javob bering va oxirida o‘zingizga eng mos keladigan biznes haqida maslahatlar olasiz!"
+        'ru': "✨Сейчас я задам вам несколько вопросов — отвечайте честно, и в конце вы получите советы, какой бизнес лучше всего вам подойдёт!✨",
+        'uz': "✨Hozir sizga bir nechta savol beraman — to‘g‘ri javob bering va oxirida o‘zingizga eng mos keladigan biznes haqida maslahatlar olasiz!✨"
     },
     'request_contact': {
         'ru': "Пожалуйста, введите ваше ФИО и номер телефона в формате:\n\nИванов Иван Иванович +998901234567",
@@ -132,7 +132,7 @@ user_state = defaultdict(lambda: {
 # Для хранения языковых предпочтений пользователей отдельно
 user_languages = {}
 
-def schedule_offer_message(chat_id, lang, delay=10):  # 3600 seconds = 1 hour
+def schedule_offer_message(chat_id, lang, delay=3600):  # 3600 seconds = 1 hour
     def send_offer(lang=lang):
         time.sleep(delay)            
         markup = types.InlineKeyboardMarkup()
@@ -149,8 +149,8 @@ def schedule_offer_message(chat_id, lang, delay=10):  # 3600 seconds = 1 hour
 @bot.message_handler(commands=['start'])
 def start(message):
     markup = types.InlineKeyboardMarkup()
-    markup.add(types.InlineKeyboardButton("UZ", callback_data="lang_uz"))
-    markup.add(types.InlineKeyboardButton("RU", callback_data="lang_ru"))
+    markup.add(types.InlineKeyboardButton("🇺🇿UZ", callback_data="lang_uz"))
+    markup.add(types.InlineKeyboardButton("🇷🇺RU", callback_data="lang_ru"))
     bot.send_message(message.chat.id, "Tilni tanlang \nВыберите язык", reply_markup=markup)
 
 @bot.callback_query_handler(func=lambda call: call.data.startswith("lang_"))
@@ -209,12 +209,14 @@ def send_result(chat_id, user_id):
     pdf_link = data['pdf_links'][lang][result_type]
     dpf_message = data['dpf_message'][lang]
     photo_path = data["type_img"][result_type]
-    
+    result_text = f"Ваш результат — {result_text}" if lang == 'ru' else f"Sizning natijangiz — {result_text}"
+
     with open(photo_path, 'rb') as photo:
         bot.send_photo(chat_id, photo, caption=result_text)
     
     markup = types.InlineKeyboardMarkup()
-    button_text = "Хотите посмотреть все варианты?" if lang == 'ru' else "Barcha variantlarni ko'rishni hohlaysizmi?"
+    button_message = "Хотите посмотреть все варианты?" if lang == 'ru' else "Barcha variantlarni ko'rishni hohlaysizmi?"
+    button_text = "Хочу!" if lang == 'ru' else "Hohlayman!"
     markup.add(types.InlineKeyboardButton(
         button_text,
         callback_data=f"show_all_{lang}"
@@ -226,7 +228,7 @@ def send_result(chat_id, user_id):
         with open(i, "rb") as file:
             bot.send_document(chat_id, file)
 
-    bot.send_message(chat_id, button_text, reply_markup=markup)
+    bot.send_message(chat_id, button_message, reply_markup=markup)
 
     schedule_offer_message(chat_id, lang)
 
