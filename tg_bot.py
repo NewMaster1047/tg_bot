@@ -5,8 +5,7 @@ import threading
 import time
 import requests
 
-# bot = telebot.TeleBot('7612181109:AAG0BK5_FsJZSaSZiji_Bw6uIMRzfy5tJGo')
-bot = telebot.TeleBot('8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts')
+bot = telebot.TeleBot('7612181109:AAG0BK5_FsJZSaSZiji_Bw6uIMRzfy5tJGo')
 
 # Language questions and PDFs
 questions_data = {
