@@ -5,7 +5,8 @@ import threading
 import time
 import requests
 
-bot = telebot.TeleBot('7612181109:AAG0BK5_FsJZSaSZiji_Bw6uIMRzfy5tJGo')
+# bot = telebot.TeleBot('7612181109:AAG0BK5_FsJZSaSZiji_Bw6uIMRzfy5tJGo')
+bot = telebot.TeleBot('8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts')
 
 # Language questions and PDFs
 questions_data = {
@@ -173,7 +174,7 @@ def select_language(call):
 def send_question(chat_id, user_id):
     lang = user_state[user_id]['lang']
     step = user_state[user_id]['step']
-    questions = data['questions'][lang]
+    questions = data['questions'][lang] if lang is not None else user_languages[user_id]
 
     if step < len(questions):
         q = questions[step]
@@ -194,20 +195,6 @@ def request_contact_info(chat_id, user_id):
     button = types.KeyboardButton(text="📞 Отправить контакт" if lang == 'ru' else "📞 Kontaktni yuborish", request_contact=True)
     markup.add(button)
     bot.send_message(chat_id, data['request_contact'][lang], reply_markup=markup)
-
-
-# Old
-# @bot.message_handler(func=lambda message: user_state.get(message.from_user.id, {}).get('waiting_for_contact', False))
-# def handle_contact_info(message):
-#     user_id = message.from_user.id
-#     contact_info = message.text
-    
-#     user_state[user_id]['contact_info'] = contact_info
-#     user_state[user_id]['waiting_for_contact'] = False
-    
-#     send_result(message.chat.id, user_id)
-
-#     lang = user_state[user_id]['lang']
 
 
 # New
