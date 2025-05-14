@@ -1,0 +1,196 @@
+2025-05-14 08:23:46,049 - INFO - База данных успешно инициализирована
+2025-05-14 08:23:46,053 - INFO - Удалено 0 старых записей
+2025-05-14 08:23:46,379 - INFO - Запуск бота...
+2025-05-14 08:23:46,708 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getMe "HTTP/1.1 200 OK"
+2025-05-14 08:23:46,714 - INFO - Получено 4 пользователей из базы
+2025-05-14 08:23:46,715 - INFO - Восстановление таймера для user_id 874575694, осталось 2631.289301 сек
+2025-05-14 08:23:46,715 - INFO - Восстановление таймера для user_id 7969873927, осталось 2522.289301 сек
+2025-05-14 08:23:46,826 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteWebhook "HTTP/1.1 200 OK"
+2025-05-14 08:23:46,830 - INFO - Application started
+2025-05-14 08:23:57,138 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:01,412 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:01,426 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:01,792 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:02,988 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:03,001 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:03,193 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:03,383 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:03,543 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:04,880 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:04,894 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:05,001 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:24:05,113 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:05,244 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:08,325 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:08,334 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:08,454 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:24:08,559 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:08,694 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:11,500 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:11,515 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:11,635 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:24:11,760 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:11,900 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:14,585 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:14,599 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:14,728 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:24:14,863 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:15,008 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:19,003 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:19,020 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:19,169 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:24:19,303 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:19,436 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:22,390 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:22,405 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:22,513 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:24:22,618 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:22,770 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:25,636 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:25,647 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:25,810 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:24:25,969 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:26,117 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:29,001 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:29,013 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:29,120 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:24:29,269 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:29,406 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:32,284 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:32,299 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:32,409 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:24:32,518 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:32,643 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:35,623 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:35,635 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:35,748 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:24:35,854 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:35,983 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:38,857 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:38,870 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:38,977 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:24:39,093 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:39,106 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:39,237 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:42,885 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:42,894 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:42,899 - INFO - Действие 'contact_provided' для user_id 7969873927 залогировано
+2025-05-14 08:24:43,077 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:44,283 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendPhoto "HTTP/1.1 200 OK"
+2025-05-14 08:24:44,411 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:44,624 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:44,872 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:45,129 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:45,417 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:45,550 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:46,789 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:24:46,996 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:47,168 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:47,663 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:47,910 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:48,155 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:48,433 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:48,578 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:48,701 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:49,004 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:49,262 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:49,488 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:49,705 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:49,835 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:49,962 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:50,186 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:50,445 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:50,835 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:51,112 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendDocument "HTTP/1.1 200 OK"
+2025-05-14 08:24:51,219 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:24:55,680 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:24:55,690 - INFO - Состояние для user_id 7969873927 успешно сохранено
+2025-05-14 08:24:56,906 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:25:05,363 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:25:05,779 - INFO - Действие 'application_submitted' для user_id 7969873927 залогировано
+2025-05-14 08:25:06,167 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-05-14 08:25:06,394 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:25:15,474 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:25:19,867 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:25:19,871 - INFO - Команда /stats вызвана пользователем 7969873927
+2025-05-14 08:25:19,871 - INFO - Начало анализа данных пользователей
+2025-05-14 08:25:19,884 - INFO - База данных успешно инициализирована
+2025-05-14 08:25:19,888 - INFO - Получено 4 пользователей из базы
+2025-05-14 08:25:19,889 - INFO - Отчет сохранен в reports/user_analysis_2025-05-14.txt
+2025-05-14 08:25:19,889 - ERROR - Ошибка при анализе пользователей: asyncio.run() cannot be called from a running event loop
+2025-05-14 08:25:19,889 - ERROR - Ошибка в stats для user_id 7969873927: asyncio.run() cannot be called from a running event loop
+2025-05-14 08:25:20,229 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:25:29,993 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:25:40,097 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:25:50,209 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:26:00,335 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:26:10,436 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:26:20,534 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:26:30,636 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:26:40,737 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:26:50,839 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:27:00,941 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:27:11,046 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:27:21,157 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:27:31,256 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:27:41,393 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:27:51,498 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:28:01,603 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:28:11,704 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:28:21,804 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:28:31,903 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:28:42,002 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:28:52,104 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:29:02,227 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:29:12,370 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:29:22,471 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:29:32,608 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:29:42,710 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:29:52,812 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:30:02,921 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:30:13,021 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:30:23,123 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:30:26,595 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<schedule_offer_message() running at C:\Users\NewMaster1047\Desktop\tg_bot\tg_bot_async.py:154> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-05-14 08:30:26,596 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<schedule_offer_message() running at C:\Users\NewMaster1047\Desktop\tg_bot\tg_bot_async.py:154> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-05-14 08:30:28,377 - INFO - База данных успешно инициализирована
+2025-05-14 08:30:28,381 - INFO - Удалено 0 старых записей
+2025-05-14 08:30:28,710 - INFO - Запуск бота...
+2025-05-14 08:30:29,031 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getMe "HTTP/1.1 200 OK"
+2025-05-14 08:30:29,037 - INFO - Получено 4 пользователей из базы
+2025-05-14 08:30:29,037 - INFO - Восстановление таймера для user_id 874575694, осталось 2228.9667609999997 сек
+2025-05-14 08:30:29,038 - INFO - Восстановление таймера для user_id 7969873927, осталось 3266.966761 сек
+2025-05-14 08:30:29,139 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/deleteWebhook "HTTP/1.1 200 OK"
+2025-05-14 08:30:29,140 - INFO - Application started
+2025-05-14 08:30:39,440 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:30:40,709 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:30:40,711 - INFO - Команда /stats вызвана пользователем 7969873927
+2025-05-14 08:30:40,711 - INFO - Начало анализа данных пользователей
+2025-05-14 08:30:40,723 - INFO - База данных успешно инициализирована
+2025-05-14 08:30:40,726 - INFO - Получено 4 пользователей из базы
+2025-05-14 08:30:40,727 - INFO - Отчет сохранен в reports/user_analysis_2025-05-14.txt
+2025-05-14 08:30:41,079 - INFO - Отчет успешно отправлен в Telegram
+2025-05-14 08:30:41,404 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:30:50,827 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:31:00,932 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:31:11,035 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:31:21,135 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:31:31,241 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:31:41,345 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:31:51,447 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:32:01,554 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:32:03,804 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:32:03,807 - INFO - Команда /stats вызвана пользователем 1845600127
+2025-05-14 08:32:04,155 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/sendMessage "HTTP/1.1 200 OK"
+2025-05-14 08:32:13,912 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:32:24,015 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:32:34,120 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:32:44,223 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:32:54,371 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:33:04,473 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:33:14,571 - INFO - HTTP Request: POST https://api.telegram.org/bot8038814392:AAEj-Yh0SiujDSmtT7KWpFGErCn-crEF2ts/getUpdates "HTTP/1.1 200 OK"
+2025-05-14 08:33:20,695 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<schedule_offer_message() running at C:\Users\NewMaster1047\Desktop\tg_bot\tg_bot_async.py:154> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-05-14 08:33:20,695 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<schedule_offer_message() running at C:\Users\NewMaster1047\Desktop\tg_bot\tg_bot_async.py:154> wait_for=<Future pending cb=[Task.task_wakeup()]>>
